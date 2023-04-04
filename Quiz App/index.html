@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/script.js"></script>
+</head>
+<body>
+  <div class="quiz-container wrapperGreen wrapperRed">
+    <h2 class="title">Quiz Questions will come here</h2>
+    <br>
+    <ul class="list-class">
+    <li>
+      <!--By giving same name attribute while making radio button so that only one option will be selected-->
+      <!--Radio buttons only permit one selection from the group, hence they all have the same name attribute-->
+      <!--input "id" and label "for" must be the same value so that while clicking on labels will help to enter values in radio-->
+      <input type="radio" id="a" class="answer" name="answer"/>
+      <label for="a" class="label aLabel">Answer 1</label>
+    </li>
+  <li>
+      <input type="radio" id="b" class="answer" name="answer"/>
+      <label for="b" class="label bLabel">Answer 2</label>
+    </li>
+      <li>
+      <input type="radio" id="c" class="answer" name="answer"/>
+      <label for="c" class="label cLabel">Answer 3</label>
+    </li>
+    </ul>
+    <br>
+    <button id="submit" class="buttonStyle">Submit</button>
+    <br>
+    <br>
+    <br>
+    <button id="next" class="buttonStyle">Next</button>
+
+    <!--Score Board-->
+
+    <div class="score">
+      <h2>Your Score is : 0 </h2>
+    </div>
+    
+  </div>
+</body>
+</html>
